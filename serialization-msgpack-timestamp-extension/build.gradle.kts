@@ -25,6 +25,7 @@ kotlin {
     ios()
     tvos()
     watchos()
+    iosSimulatorArm64()
     val hostOs = System.getProperty("os.name")
     val isMingwX64 = hostOs.startsWith("Windows")
     when {
